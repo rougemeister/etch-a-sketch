@@ -18,7 +18,7 @@ html{
    
 }
 .title-container {
-    width: 30em;
+    width: 480px;
     margin: auto;
 }
 
@@ -27,8 +27,8 @@ html{
 #main{
     border: 1px solid gray;
     background-color: black;
-    width: 40em;
-    height: 40em;
+    width: 640px;
+    height: 640px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -36,23 +36,28 @@ html{
     flex-direction: column;
     padding: 2em 0;
     border-radius: 20px;
-    box-shadow: 0 0 5px rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(131, 131, 131);
     
 }
 
 .top{
     width: 150px;
     height: 5px;
-    background-color: rgb(255, 255, 250);
+    background-color: rgb(230, 230, 224);
     margin: 20px;
+    border-radius: 5px;
 
 }
 
 .grid-container {
-    width: 30em;
-    height: 30em;
-    background-color: lightblue;
+    width: 480px;
+    height: 480px;
+    background-color: rgb(224, 244, 250);
+    display: grid;
+
+    
 }
+
 
 .controls {
     margin: 50px;
@@ -71,6 +76,9 @@ button{
     height: 40px;
     text-transform: capitalize;
     font-family: poppins, sans-serif;
-    font-weight: 600;
+    font-weight: 600;  
 }
+
+
+
 
