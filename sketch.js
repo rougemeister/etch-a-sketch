@@ -19,7 +19,7 @@ function addGridBoxes(num){
     }
     
     for(let box of gridContainer.children){
-        box.addEventListener('click', (e)=>{
+        box.addEventListener('mouseover', (e)=>{
             e.target.style.backgroundColor = 'rgb(6, 6, 53)';
         })
     }
@@ -40,7 +40,7 @@ function populatePad(num = 16){
     }
     
     for(let box of gridContainer.children){
-        box.addEventListener('click', (e)=>{
+        box.addEventListener('mouseover', (e)=>{
             e.target.style.backgroundColor = 'rgb(6, 6, 53)';
         })
     }
@@ -104,6 +104,11 @@ function makeRainbow(){
     for(let box of gridBoxes){
         box.addEventListener('mouseover', ()=>{
             box.style.backgroundColor = getColor();
+            
+            
+          
         })
     }
+    
 } 
+
